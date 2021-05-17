@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F49586;
+    border: 7vw solid #A1C9D7
+}
+
+.logo{
+    max-width: 30px;
+    padding: 30px 30px 20px;
+    position: relative;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 20px 10px 20px;
+    position: relative;
+    top:-8vh
+}
+.container{
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+}
+#reply{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#msginp{
+    width: 80%;
+    border: 2px solid #F49586;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 22px;
+}
+.btn{
+    padding: 5px;
+    border: 2px solid #F49586;
+    background-color:#A1C9D7 ;
+}
+.message{
+    background-color: rgb(240, 232, 232);
+    width: 24%;
+    border: 2px solid black;
+    padding: 10px;    
+    margin: 17px 12px;
+}
+.right{
+    border-radius: 30px 30px 5px 30px;
+    float :right;
+    clear: both;
+}
+.left{
+    border-radius: 5px 30px 30px 30px;
+    float :left;
+    clear: both;
+}
+@media only screen and (min-width: 1000px){
+    .logo{
+        position: relative;
+        top: 2vh;
+        left: 25vw;
+        max-width: 30px;
+        padding: 30px 30px 20px;
+    }
+    
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        text-align: center;
+        padding: 20px 10px 20px;
+        position: relative;
+        top:-8vh
+    }
+    .container{
+        max-width: 1085px;
+        border: 2px solid black;
+        border-radius: 13px;
+        margin: auto;
+        height: 60vh;
+        padding: 33px;
+        overflow-y: auto;
+        margin-bottom: 23px;
+    
+    }
+    #reply{
+        display:block;
+        margin: auto;
+        text-align: center;
+        max-width: 1085px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #msginp{
+        width: 80%;
+        border: 2px solid #F49586;
+        border-radius: 6px;
+        height: 34px;
+        font-size: 22px;
+    }
+    .btn{
+        padding: 5px;
+        border: 2px solid #F49586;
+        background-color:#A1C9D7 ;
+    }
+    .message{
+        background-color: rgb(240, 232, 232);
+        width: 24%;
+        border: 2px solid black;
+        padding: 10px;    
+        margin: 17px 12px;
+    }
+    .right{
+        border-radius: 30px 30px 5px 30px;
+        float :right;
+        clear: both;
+    }
+    .left{
+        border-radius: 5px 30px 30px 30px;
+        float :left;
+        clear: both;
+    }
+    .dropdown{
+        padding: 20px 10px 10px;
+        margin: auto;
+    
+    }
+    ul{
+        padding: 10px 10px;
+        width: 20%;
+        border: 5px solid white;
+        border-radius: 10px;
+        background: white;
+        position: relative;
+        left: 7vw;
+        top:-5vh;
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(10px);
+        transition: all 1s ease;
+    }
+}
